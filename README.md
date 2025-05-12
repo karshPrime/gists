@@ -15,6 +15,10 @@ charging at the specified threshold.
 Print every terminal colour alongside its escape sequence. Useful as a visual
 reference when customising prompts, themes, or status lines.
 
+### `copy_code.sh`
+Copy all source files of a given type into the clipboard in one go. Handy for
+sharing snippets in places where uploading files isn't convenient.
+
 ### `gomake.sh`
 A more robust `go build` wrapper. Compiles a Go program for multiple architectures into
 `./bin/` instead of cluttering the project root.
