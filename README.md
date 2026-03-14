@@ -19,6 +19,10 @@ reference when customising prompts, themes, or status lines.
 Copy all source files of a given type into the clipboard in one go. Handy for
 sharing snippets in places where uploading files isn't convenient.
 
+### `gl.sh`
+Enhanced `git log` visualiser. Renders the commit graph with coloured refs, formatted
+dates, and tidied decorations via an `awk` post-processor.
+
 ### `gomake.sh`
 A more robust `go build` wrapper. Compiles a Go program for multiple architectures into
 `./bin/` instead of cluttering the project root.
